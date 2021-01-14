@@ -30,6 +30,20 @@ $(document).ready(function(){
 
 	});
 
+$(document).ready(function(){
+		$('.button2').each(function(index){
+			$(this).attr('button-index', index);
+		}).click(function(){
+			var index = $(this).attr('button-index');
+			$('.button2[button-index=' + index + ']').addClass('clicked_button2');
+			$('.button2[button-index!=' + index + ']').removeClass('clicked_button2');
+		});
+
+
+	});
+
+
+
 
 $(document).ready(function() {
 

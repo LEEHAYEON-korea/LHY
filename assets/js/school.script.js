@@ -10,12 +10,12 @@ function bt2018(){
 };
 
 $(document).ready(function(){
-		$('.button').each(function(index){
+		$('.button3').each(function(index){
 			$(this).attr('button-index', index);
 		}).click(function(){
 			var index = $(this).attr('button-index');
-			$('.button[button-index=' + index + ']').addClass('clicked_button');
-			$('.button[button-index!=' + index + ']').removeClass('clicked_button');
+			$('.button3[button-index=' + index + ']').addClass('clicked_button3');
+			$('.button3[button-index!=' + index + ']').removeClass('clicked_button3');
 		});
 
 

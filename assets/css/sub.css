@@ -281,8 +281,15 @@ h6 {
 }
 .img-2018 img{
     height: 350px;
-    border-radius: 80px / 40px;
+    box-shadow: 5px 5px 10px grey;
 }
+.img-2018 img:after {
+        content: "";
+        display: block;
+        width: 60px;
+        border-bottom: 1px solid #bcbcbc;
+        margin: 20px auto;
+      }
 
 #main{
     margin-top: 30px;
@@ -340,7 +347,87 @@ video{
           letter-spacing: 2.5px;
           font-weight: 500;
           color: #fff;
-          background: linear-gradient(-135deg, #ED4264, #FFEDBC) fixed;
+          background: linear-gradient(-135deg, #E4ABB1, #E4ABB1) fixed;
+          border: none;
+          border-radius: 45px;
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+          transition: all 0.3s ease 0s;
+          cursor: pointer;
+          outline: none;
+}
+
+.button2{
+       float: left;
+		display: inline-block;
+		cursor: pointer;
+        width: 140px;
+      height: 45px;
+      font-family: "M PLUS Rounded 1c";
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      background-color:#fff;
+      border: none;
+      border-radius: 45px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none;
+
+	}
+
+.clicked_button2{
+		width: 140px;
+          height: 45px;
+          font-family: "M PLUS Rounded 1c";
+          font-size: 13px;
+          text-transform: uppercase;
+          letter-spacing: 2.5px;
+          font-weight: 500;
+          color: #fff;
+          background: linear-gradient(-135deg, #A299C0, #A299C0) fixed;
+          border: none;
+          border-radius: 45px;
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+          transition: all 0.3s ease 0s;
+          cursor: pointer;
+          outline: none;
+}
+
+.button3{
+       float: left;
+		display: inline-block;
+		cursor: pointer;
+        width: 140px;
+      height: 45px;
+      font-family: "M PLUS Rounded 1c";
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      background-color:#fff;
+      border: none;
+      border-radius: 45px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none;
+
+	}
+
+.clicked_button3{
+		width: 140px;
+          height: 45px;
+          font-family: "M PLUS Rounded 1c";
+          font-size: 13px;
+          text-transform: uppercase;
+          letter-spacing: 2.5px;
+          font-weight: 500;
+          color: #fff;
+          background: linear-gradient(-135deg, #99C8EC, #99C8EC) fixed;
           border: none;
           border-radius: 45px;
           box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
@@ -472,8 +559,18 @@ video{
 						background-color: rgba(222, 222, 222, 0.25);
 					}
 
-					.subnav ul li a.active {
-						background: linear-gradient(-135deg, #ED4264, #FFEDBC) fixed;
+					.subnav ul li a.active1 {
+						background: linear-gradient(-135deg, #E4ABB1, #E4ABB1) fixed;
+						box-shadow: none;
+                        color: #ffffff;
+					}
+                    .subnav ul li a.active2 {
+						background: linear-gradient(-135deg, #A299C0, #A299C0) fixed;
+						box-shadow: none;
+                        color: #ffffff;
+					}
+                    .subnav ul li a.active3 {
+						background: linear-gradient(-135deg, #99C8EC, #99C8EC) fixed;
 						box-shadow: none;
                         color: #ffffff;
 					}
