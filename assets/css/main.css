@@ -270,9 +270,15 @@ h6 {
 }
 
 .image img{
-    display: block;
     border-radius: 100%;
+    border: solid 1px;
+    border-color: #dddddd;
+    display: block;
     width: 16em;
+}
+
+.image img:hover{
+    border-color: #D390D6;
 }
 
 /*main contents*/
