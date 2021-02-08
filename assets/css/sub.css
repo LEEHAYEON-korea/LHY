@@ -194,6 +194,12 @@ h6 {
 }
 
 
+.sub-video-title{
+     margin-top: 3.5rem; 
+     text-align: center;
+}
+
+
 /*contents*/
 .row {
     display: -ms-flexbox;
