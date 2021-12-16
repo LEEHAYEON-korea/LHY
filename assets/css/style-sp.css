@@ -11,39 +11,41 @@
 
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (min-width: 736px) {
     body{
         background-size: cover;
     }
-
-    header{
-        justify-content: center;
-    }
     .lists{
+        display: flex;
         flex-direction: column;
     }
     .lists li{
         width: 0 auto;
         padding-top: 3em;
     }
+    .lists li:nth-child(1), .lists li:nth-child(3) {
+    margin:0 0 0 auto;
     
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
 
 		html, body {
 			min-width: 320px;
 		}
-    header{
-        justify-content: center;
+    .lists{
+        flex-direction: column;
     }
     .lists{
+        display: flex;
         flex-direction: column;
     }
     .lists li{
         width: 0 auto;
         padding-top: 3em;
     }
+    .lists li:nth-child(1), .lists li:nth-child(3) {
+    margin:0 0 0 auto;
 
 }
