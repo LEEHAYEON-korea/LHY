@@ -19,9 +19,12 @@
     header{
         justify-content: center;
     }
+    .lists{
+        flex-direction: column;
+    }
     .lists li{
-        width: auto;
-        padding-top: 5em;
+        width: 0 auto;
+        padding-top: 3em;
     }
     
 }
