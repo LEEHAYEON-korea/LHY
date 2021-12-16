@@ -35,5 +35,15 @@
 		html, body {
 			min-width: 320px;
 		}
+    header{
+        justify-content: center;
+    }
+    .lists{
+        flex-direction: column;
+    }
+    .lists li{
+        width: 0 auto;
+        padding-top: 3em;
+    }
 
 }
