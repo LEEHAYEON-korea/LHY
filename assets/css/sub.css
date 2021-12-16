@@ -24,7 +24,7 @@ a {
 }
 a:hover {
     border-bottom-color: transparent;
-    color: #ffffff;
+    color: #000000;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
@@ -70,9 +70,6 @@ ul, ol{
     text-rendering: auto;
     line-height: 1;
 }
-dl {
-    margin: 0 0 2em 0;
-}
 dl.alt dt {
     display: block;
     width: 3em;
@@ -84,7 +81,7 @@ dl.alt dd {
     margin: 0 0 0.85em 5.5em;
 }
 dl dt {
-    color: #ffffff;
+    color: #636363;
 }
 dl.alt:after {
     content: '';
@@ -439,25 +436,23 @@ video{
 
 /*footer*/
 .footer {
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
+    padding: 3em 3em 3em 3em;
+    color: #636363;
     display: flex;
-    -moz-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 5em 5em 3em 5em;
-    margin: 0 0 3em 0em;
-    text-shadow: 1px 1px 1px #333;
+}
+.footer section{
+    margin-bottom: 0;
+    width: 21rem;
+}
+
+.footer section + section{
+        margin-top: 0;
 }
 .footer > * {
-    width: calc(50% - 2em);
-    margin-left: 2em;
 }
 .footer h2{
     font-size: 1.5em;
-    color: #FFFFFF;
+    
 }
 
 .info-p{
