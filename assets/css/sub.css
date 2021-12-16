@@ -636,7 +636,7 @@ section img{
 .profileimg{
     width: 30%;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 0 0 auto;
 }
 
 .profile h2{
