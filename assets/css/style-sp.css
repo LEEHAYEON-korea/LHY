@@ -6,12 +6,11 @@
 
 @media screen and (max-width: 1300px) {
     body{
-        background-size: cover;
     }
 
 }
 
-@media screen and (min-width: 736px) {
+@media screen and (max-width: 736px) {
     body{
         background-size: cover;
     }
@@ -43,7 +42,7 @@
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
