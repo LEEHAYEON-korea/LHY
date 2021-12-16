@@ -14,7 +14,7 @@ html{
 
 body{
     line-height: 1.0;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "M PLUS Rounded 1c";
     font-size: 1.4em;
     background-image: url(../bg.png);
     background-color: #F2E5D5;
@@ -23,6 +23,20 @@ body{
     width: 100%;
     min-width: 100rem;
     height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 0.7em 0;
+    letter-spacing: -0.025em;
+}
+
+h3{
+		font-size: 1.7em;
+		line-height: 1.2;
+        color: #4C4C4C;
+        font-weight: bold;
 }
 
 a{
@@ -37,6 +51,7 @@ a:hover{
 
 p{
     font-family: Arial;
+    
 }
 
 img{
@@ -69,29 +84,9 @@ header h1{
     
 }
 
-
-lists{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: "M PLUS Rounded 1c";
-    color: #636363;
-}
 .lists{
-    display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
 	display: flex;
-	-moz-flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-moz-justify-content: center;
-	-webkit-justify-content: center;
-	-ms-justify-content: center;
 	justify-content: center;
 	width: auto;
 	margin: 0 auto;
@@ -107,6 +102,12 @@ lists{
 .lists li:nth-child(1), .lists li:nth-child(2), .lists li:nth-child(3) {
     margin-top: 0;
 }
+
+.lists p{
+    color: #636363;
+    font-size: 1.5rem;
+}
+
 .icon {
 		text-decoration: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
